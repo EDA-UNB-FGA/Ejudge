@@ -1,0 +1,3 @@
+#!/bin/bash
+PYTHONPATH=$HOME/ejudge/bin/; export PYTHONPATH 
+$HOME/bin/ejudge.py "$@"

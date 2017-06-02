@@ -59,7 +59,7 @@ class Sender(object):
 		checksumFile = self.saveMD5(filename)
 
 		program = 'cp'
-		destination = self.findDestination('ProfEdsonPD')
+		destination = self.findDestination('EDA')
 
 		args = [program, filename.getFileName(), destination]
 

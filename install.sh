@@ -8,6 +8,6 @@ cp ejudge ejudge.py $HOME/bin
 echo "Adicionando ejudge ao PATH..."
 printf '\nif [ -d "$HOME/bin" ] ; then' >> ~/.bashrc
 printf '\nPATH=$HOME/bin:$PATH' >> ~/.bashrc
-printf '\nfi' >> ~/.bashrc
-echo $PATH
-echo "Feche e abra o terminal para finalizar a instalação..."
+printf '\nfi\n' >> ~/.bashrc
+source ~/.bashrc
+echo "Instalação completa."
